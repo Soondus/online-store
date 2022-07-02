@@ -12,5 +12,8 @@
     "url": "/Users/soondusal-hassan/online-store/.git/"
   },
   "author": "potato",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.18"
+  }
 }
