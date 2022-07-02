@@ -1,8 +1,9 @@
+
 const express = require("express");
 const app = express();
 const mongoose = require('mongoose');
-const person = require("./models/users");
-const trip = require("/models/trips");
+//const person = require("./models/users");
+//const trip = require("/models/trips");
 
 
 mongoose.connect('mongodb+srv://user0:PrVZsRbgCPkb7L8Y@trips.6eqhgof.mongodb.net/?retryWrites=true')
