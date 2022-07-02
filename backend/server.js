@@ -1,5 +1,5 @@
 const http = require('http');
-
+const app = express();
 
 const normalizePort = val => {
   const port = parseInt(val, 10);
@@ -35,9 +35,7 @@ const errorHandler = error => {
   }
 };
 
-const server = http.createServer((req, res) => {
-    res.end('This is my server response!');
-});
+const server = http.createServer(app);
 
 server.on('error', errorHandler);
 server.on('listening', () => {
